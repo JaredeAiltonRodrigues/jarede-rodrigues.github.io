@@ -1,0 +1,38 @@
+/* .menu {
+    position: absolute;
+    top:28px;
+    right: 30px;
+    background-color: transparent;
+    height: 4px;
+    width: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+    z-index: -1;
+    transition: 400ms ease-in-out 0s;
+
+}
+.menu-items{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms ease-in-out 0s;
+}
+.menu-items ul{
+    list-style-type:none;
+}
+.menu-items ul li a{
+    margin: 10px 0 ;
+    color:black;
+    text-decoration: none;
+    text-decoration:uppercase;
+    letter-spacing:4px;
+    font-size: 40px;
+} */
