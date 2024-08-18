@@ -273,6 +273,18 @@ a:hover {
         justify-content: center;
         transition: .5s ease-in-out;
 }
+
+     /*maps */
+
+
+.map-container {
+  background-image: url('world-image.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
 .footer{
     width: auto; 
     height:100px ;
