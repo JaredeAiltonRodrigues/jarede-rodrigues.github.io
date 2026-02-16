@@ -1,46 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="site-protifolio/_css/menu_HBg.css">
-    <title>Projetos</title>
+    <title>Projetos | Jarede Rodrigues</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-container small-header">
+        <nav class="navbar">
+            <div class="logo">JR</div>
+            <ul class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sobre_mim.html">Sobre</a></li>
+                <li><a href="projetos.html" class="active">Projetos</a></li>
+            </ul>
+        </nav>
+        <div class="hero-simple">
+            <h1>Meus <span class="highlight">Projetos</span></h1>
+            <p>Soluções em Python, C# e Análise de Dados</p>
+        </div>
+    </header>
 
-    <header class="header-container">
-        <div class="header">
-            <div class="checkbox-container">
-                  <div class="checkbox-wrapper">
-                    <input type="checkbox" id="toggle">
-                     <label class="checkbox" for="toggle">
-                         <div class="trace"></div>
-                         <div class="trace"></div>
-                         <div class="trace"></div>
-                      </label>
-                     <div class="menu"></div>
-                      <nav class="menu-items">
-                          <ul>
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a href="Sobre_mim.html">Sobre</a>
-                                </li>
-                                <li>
-                                    <a href="projetos.html">Projetos</a>
-                                </li>
-                          </ul>
-                    </nav>
+    <main class="container">
+        <section class="projects-grid">
+            <div class="card project-card">
+                <div class="card-content">
+                    <span class="tag">Python</span>
+                    <h3>Automação de Processos</h3>
+                    <p>Desenvolvimento de scripts para otimização de rotinas administrativas e tratamento de dados operacionais[cite: 20, 30].</p>
+                    <a href="https://github.com/JaredeAiltonRodrigues" target="_blank" class="btn-project">Ver no GitHub</a>
                 </div>
             </div>
-        </div>
 
-</head>
+            <div class="card project-card">
+                <div class="card-content">
+                    <span class="tag">C#</span>
+                    <h3>Sistemas Estruturados</h3>
+                    <p>Aplicações focadas em lógica de programação e engenharia de software para resolução de problemas.</p>
+                    <a href="https://github.com/JaredeAiltonRodrigues" target="_blank" class="btn-project">Ver no GitHub</a>
+                </div>
+            </div>
 
-<body href="site-protifolio/_projetos/video.html">
-    
-        <link rel="site-protifolio/_projetos/video.html">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/p_aZxDLUOSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   
-    
+            <div class="card project-card">
+                <div class="card-content">
+                    <span class="tag">Power BI & Excel</span>
+                    <h3>Dashboards de Indicadores</h3>
+                    <p>Análise de dados logísticos e criação de relatórios visuais para suporte à tomada de decisão[cite: 12, 33].</p>
+                    <a href="#" class="btn-project">Visualizar Case</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Jarede Rodrigues • Conectando Adm e Tecnologia</p>
+    </footer>
 </body>
 </html>

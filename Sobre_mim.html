@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <link rel="stylesheet" href="site-protifolio/_css/menu_HBg.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>sobre mim</title>
-
-    <header class="header-container">
-        <div class="header">
-            <div class="checkbox-container">
-                  <div class="checkbox-wrapper">
-                    <input type="checkbox" id="toggle">
-                     <label class="checkbox" for="toggle">
-                         <div class="trace"></div>
-                         <div class="trace"></div>
-                         <div class="trace"></div>
-                      </label>
-                     <div class="menu"></div>
-                      <nav class="menu-items">
-                          <ul>
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a href="Sobre_mim.html">Sobre</a>
-                                </li>
-                                <li>
-                                    <a href="projetos.html">Projetos</a>
-                                </li>
-                          </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-<div class="map-container">
-  <div class="map-content">
-    <!-- Your map content goes here -->
-  </div>
-</div>
-
+    <title>Sobre Mim | Jarede Rodrigues</title>
+    <link rel="stylesheet" href="style.css"> <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1> Minha Historia</h1>
-    <H2>curriculo</H2>
+    <header class="header-container small-header"> <nav class="navbar">
+            <div class="logo">JR</div>
+            <ul class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sobre_mim.html" class="active">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+        </nav>
+        <div class="hero-simple">
+            <h1>Minha <span class="highlight">História</span></h1>
+        </div>
+    </header>
 
-    </body>
+    <main class="container">
+        <section class="about-section">
+            <div class="card">
+                <div class="card-content">
+                    <h3>Trajetória Profissional</h3>
+                    <p>
+                        Aqui você pode contar como começou na tecnologia. Como Analista de Sistemas focado em 
+                        <strong>Back-end</strong>, destaque sua paixão por resolver problemas complexos e 
+                        construir arquiteturas sólidas.
+                    </p>
+                    
+                    <hr class="divider">
+                    
+                    <h3>Currículo</h3>
+                    <ul class="cv-list">
+                        <li><strong>Formação:</strong> Análise e Desenvolvimento de Sistemas</li>
+                        <li><strong>Stack:</strong> Java, Spring Boot, SQL, Git</li>
+                        <li><strong>Experiência:</strong> Desenvolvimento de APIs e Gestão de Dados</li>
+                    </ul>
+
+                    <a href="caminho-para-seu-pdf.pdf" class="btn-project" download>Baixar CV em PDF</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Jarede Rodrigues • Analista de Sistemas</p>
+    </footer>
+</body>
 </html>

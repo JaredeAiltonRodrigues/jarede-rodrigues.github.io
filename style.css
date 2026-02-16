@@ -165,3 +165,73 @@ body {
     .menu-items { display: none; } /* Simplificado para o exemplo */
     .hero h1 { font-size: 2rem; }
 }
+
+
+/* Estilos extras para a página Sobre */
+.small-header {
+    min-height: 40vh !important; /* Header mais baixo */
+}
+
+.hero-simple {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about-section {
+    margin-top: -20px;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 2rem 0;
+}
+
+.cv-list {
+    list-style: none;
+    margin: 1.5rem 0;
+}
+
+.cv-list li {
+    margin-bottom: 0.8rem;
+    color: var(--text-dim);
+}
+
+.cv-list li strong {
+    color: var(--primary-color);
+}
+
+.active {
+    color: var(--primary-color) !important;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.tag {
+    background: var(--primary-color);
+    color: var(--bg-color);
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.project-card h3 {
+    margin-bottom: 0.5rem;
+}
