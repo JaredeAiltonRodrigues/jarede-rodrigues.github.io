@@ -19,6 +19,35 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
 }
+.header-container {
+    position: relative; /* Necessário para o vídeo se posicionar atrás */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Esconde o que sobrar do vídeo */
+}
+
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Joga o vídeo para trás de tudo */
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    filter: brightness(40%); /* Escurece o vídeo para o texto brilhar */
+}
+
+.hero {
+    z-index: 1; /* Garante que o texto fique na frente */
+    text-align: center;
+}
+
+
 
 /* Header & Nav */
 .header-container {
